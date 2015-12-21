@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Mega Browser</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="handle">
+    ⇋ Mega Browser ⇌
+    <div class="theB">
+      <button id="maxi" name="button">□</button>
+      <button id="exit" name="button">x</button>
+    </div>
+  </div>
+
+  <div id="container">
+    <div id="urlbar">
+      <ul id="tabbar">
+        <li class="tab active">http://google.com</li>
+      </ul>
+      <input name="name" id="urlinput" placeholder="http://">
+      <button id="visit">Go</button>
+      <button id="newtab">+</button>
+      <button id="delTab"><</button>
+    </div>
+  </div>
+
+  <div id="views">
+    <webview src="http://google.com" class="view active"></webview>
+  </div>
+
+
+
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>

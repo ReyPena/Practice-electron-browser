@@ -1,0 +1,15 @@
+{
+  "name": "electron-browser",
+  "version": "0.0.1",
+  "description": "Browser using web technology and electron.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rey",
+  "license": "ISC",
+  "dependencies": {
+    "electron-prebuilt": "^0.36.0",
+    "jquery": "^2.1.4"
+  }
+}
